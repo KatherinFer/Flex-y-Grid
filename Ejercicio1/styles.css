@@ -1,6 +1,10 @@
 .container{
-    display: flex;
-    justify-content: space-between;
     background-color:cadetblue;
     padding: 10px;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    font-family: sans-serif;
 }
