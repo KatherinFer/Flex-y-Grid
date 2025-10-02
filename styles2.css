@@ -1,0 +1,28 @@
+.container{
+  display: flex;
+  flex-flow: column-wrap;
+  height: 100%;
+  gap: 5px;
+}
+.menu {
+  background-color: lightblue;
+  margin: 0;
+  list-style: none;
+  flex: 1;
+  padding: 20px;
+}
+.menu li a {
+  text-decoration: none;
+  color: black;
+  display: block;
+  padding: 10px 0;
+  border-bottom: 1px solid grey;
+  width: 200px;
+  font-family: sans-serif;
+}
+.div01 {
+  background-color: lightcoral;
+  text-align: center;
+  padding: 20px;
+  flex: 8;
+}
